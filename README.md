@@ -1,5 +1,4 @@
 Code and Data corresponding to "Explaining and Generalizing Skip-Gram through Exponential Family Principal Component Analysis"
-======
 
 ##Directories: 
 ```hyperref-tensor```: C code to generate word embeddings. The directory includes the original word2vecf code which we use as a baseline.
