@@ -21,7 +21,6 @@ word-analogy : word-analogy.c
 	$(CC) word-analogy.c -o word-analogy $(CFLAGS)
 compute-accuracy : compute-accuracy.c
 	$(CC) compute-accuracy.c -o compute-accuracy $(CFLAGS)
-	chmod +x *.sh
 
 clean:
 	rm -rf word2vec word2phrase distance word-analogy compute-accuracy count_and_filter word2vecf word2vec3
