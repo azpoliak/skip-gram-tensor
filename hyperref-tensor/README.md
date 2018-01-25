@@ -18,3 +18,5 @@ The following are optional command line arguments:
 1. `tensor` - `1` indicates whether to use tensor factorization, `0` indicates to use matrix factorization
 1. `pow`
  
+# Example
+We provide an example bash script `make-embeddings.sh` that will download text, clean and format the data appropriately, then run `word2vecf` to generate word vectors from the downloaded text.
