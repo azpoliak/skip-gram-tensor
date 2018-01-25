@@ -25,6 +25,6 @@ python scripts/pairs2relations.py w2.sub/pairs > w2.sub/relations
 echo "Made relations file"
 python scripts/counts2vocab.py w2.sub/counts
 
-./word2vec3 -train w2.sub/pairs -pow 1 -vocab w2.sub/counts.words.vocab -cvocab w2.sub/counts.contexts.vocab -wvocab w2.sub/counts.words.vocab -rvocab w2.sub/counts.relations.vocab -dumpcv w2.sub/context-matrix -dumprv w2.sub/relation-matrix -output w2.sub/vectors -negative 5 -size 300 -min-count 1 -tensor 1
+./word2vec3 -train w2.sub/pairs -pow 1 -cvocab w2.sub/counts.contexts.vocab -wvocab w2.sub/counts.words.vocab -rvocab w2.sub/counts.relations.vocab -dumpcv w2.sub/context-matrix -dumprv w2.sub/relation-matrix -output w2.sub/vectors -negative 5 -size 300 -min-count 1 -tensor 1
 
 
