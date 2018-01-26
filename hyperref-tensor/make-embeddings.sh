@@ -1,4 +1,4 @@
-make
+make clean;make
 
 # Download corpus. We chose a small corpus for the example, and larger corpora will yield better results.
 #wget http://www.statmt.org/wmt14/training-monolingual-news-crawl/news.2010.en.shuffled.gz
