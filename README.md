@@ -6,7 +6,7 @@ To run the tensor-factoization word embeddings code, run `bash make-embeddings.s
 
 
 
-##Directories: 
+## Directories: 
 1. ```hyperref-tensor```: C code to generate word embeddings. The directory includes the original word2vecf code which we use as a baseline.
 
 1. ```Universal_Dependencies```: Data and code corresponding to UD experiments in the paper 
