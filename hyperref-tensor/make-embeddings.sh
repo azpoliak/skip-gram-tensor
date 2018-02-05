@@ -17,7 +17,8 @@ echo "cleaned corpus"
 
 # A) Window size 2 with "clean" subsampling
 mkdir w2.sub
-python scripts/corpus2pairs.py --win 2 --sub 1e-5 --pos --thr 1 $CORPUS.clean > w2.sub/pairs
+python scripts/corpus2pairs.py --win 2 --pos --thr 1 $CORPUS.clean > w2.sub/pairs
+#python scripts/corpus2pairs.py --win 2 --sub 1e-5 --pos --thr 1 $CORPUS.clean > w2.sub/pairs
 echo "Made pairs file"
 bash scripts/pairs2counts.sh w2.sub/pairs > w2.sub/counts
 echo "Made counts file"
